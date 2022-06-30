@@ -56,13 +56,13 @@ def select_all():
 def delete_last_char():
    text_area.event_generate("<<KP_Delete>>")
 def about_notepad():
-   mb.showinfo("About Notepad", "This is just another Notepad, but this is better than all others")
+   mb.showinfo("About Notepad", "This is just another Notepad, only better!")
 def about_commands():
    commands = """
 Under the File Menu:
 - 'New' clears the entire text area.
 - 'Open' clears text and opens another file.
-- 'Save As' saves your file in the same / another extension.
+- 'Save As' saves your file in the same or another extension.
 Under the Edit Menu:
 - 'Copy' copies the selected text to your clipboard.
 - 'Cut' cuts the selected text and removes it from the text area.
